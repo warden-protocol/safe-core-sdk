@@ -1,6 +1,6 @@
 {
   "name": "@wardenprotocol/api-kit",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "SDK that facilitates the interaction with the Safe Transaction Service API",
   "types": "dist/src/index.d.ts",
   "main": "dist/cjs/index.cjs",
