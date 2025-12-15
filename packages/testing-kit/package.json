@@ -1,5 +1,5 @@
 {
-  "name": "@safe-global/testing-kit",
+  "name": "@wardenprotocol/testing-kit",
   "version": "0.2.2",
   "description": "Helper package providing testing utilities",
   "types": "dist/src/src/index.d.ts",

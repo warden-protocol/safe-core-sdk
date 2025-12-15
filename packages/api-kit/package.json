@@ -1,5 +1,5 @@
 {
-  "name": "@safe-global/api-kit",
+  "name": "@wardenprotocol/api-kit",
   "version": "4.0.1",
   "description": "SDK that facilitates the interaction with the Safe Transaction Service API",
   "types": "dist/src/index.d.ts",

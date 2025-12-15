@@ -1,5 +1,5 @@
 {
-  "name": "@safe-global/types-kit",
+  "name": "@wardenprotocol/types-kit",
   "version": "3.0.0",
   "description": "Types for use with the Safe Core SDK packages",
   "types": "dist/src/index.d.ts",
