@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { SafeVersion } from '@safe-global/types-kit'
-import { DeploymentFilter, getSafeSingletonDeployment } from '@safe-global/safe-deployments'
+import { DeploymentFilter, getSafeSingletonDeployment } from '@wardenprotocol/safe-deployments'
 import { networks } from '../../src/utils/eip-3770/config'
 
 /**
@@ -34,7 +34,7 @@ type ChainData = {
 let chainListCache: ChainData[] | null = null
 
 /**
- * Gets the network IDs where the Safe smart contracts were deployed and added to @safe-global/safe-deployments.
+ * Gets the network IDs where the Safe smart contracts were deployed and added to @wardenprotocol/safe-deployments.
  *
  * @returns {string[]} Array of network IDs
  */

@@ -1,5 +1,5 @@
 {
-  "name": "@safe-global/protocol-kit",
+  "name": "@wardenprotocol/protocol-kit",
   "version": "6.1.2",
   "description": "SDK that facilitates the interaction with Safe Smart Accounts",
   "types": "dist/src/index.d.ts",
@@ -79,7 +79,7 @@
     "tsconfig-paths": "^4.2.0"
   },
   "dependencies": {
-    "@safe-global/safe-deployments": "^1.37.49",
+    "@wardenprotocol/safe-deployments": "^1.37.50",
     "@safe-global/safe-modules-deployments": "^2.2.21",
     "@safe-global/types-kit": "^3.0.0",
     "abitype": "^1.0.2",
