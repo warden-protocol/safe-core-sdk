@@ -1,4 +1,4 @@
-import Safe from '@safe-global/protocol-kit/index'
+import Safe from '@wardenprotocol/protocol-kit/index'
 import { safeVersionDeployed, setupTests, itif } from '@safe-global/testing-kit'
 import chai from 'chai'
 import { getEip1193Provider } from './utils/setupProvider'

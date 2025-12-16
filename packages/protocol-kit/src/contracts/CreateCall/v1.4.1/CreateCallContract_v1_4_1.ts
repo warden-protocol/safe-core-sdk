@@ -1,13 +1,13 @@
-import CreateCallBaseContract from '@safe-global/protocol-kit/contracts/CreateCall/CreateCallBaseContract'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import CreateCallBaseContract from '@wardenprotocol/protocol-kit/contracts/CreateCall/CreateCallBaseContract'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 import {
   CreateCallContract_v1_4_1_Abi,
   CreateCallContract_v1_4_1_Contract,
   createCall_1_4_1_ContractArtifacts,
   SafeContractFunction
 } from '@safe-global/types-kit'
-import { toTxResult } from '@safe-global/protocol-kit/contracts/utils'
+import { toTxResult } from '@wardenprotocol/protocol-kit/contracts/utils'
 
 /**
  * CreateCallContract_v1_4_1  is the implementation specific to the CreateCall contract version 1.4.1.

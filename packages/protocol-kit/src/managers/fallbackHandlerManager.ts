@@ -4,10 +4,10 @@ import {
   SAFE_FEATURES,
   SafeContractCompatibleWithFallbackHandler,
   sameString
-} from '@safe-global/protocol-kit/utils'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/utils/constants'
-import { asHex } from '@safe-global/protocol-kit/utils/types'
-import { SafeContractImplementationType } from '@safe-global/protocol-kit/types'
+} from '@wardenprotocol/protocol-kit/utils'
+import { ZERO_ADDRESS } from '@wardenprotocol/protocol-kit/utils/constants'
+import { asHex } from '@wardenprotocol/protocol-kit/utils/types'
+import { SafeContractImplementationType } from '@wardenprotocol/protocol-kit/types'
 import SafeProvider from '../SafeProvider'
 
 class FallbackHandlerManager {

@@ -1,10 +1,10 @@
 import semverSatisfies from 'semver/functions/satisfies'
-import { SafeContractImplementationType } from '@safe-global/protocol-kit/types'
-import SafeContract_v1_0_0 from '@safe-global/protocol-kit/contracts/Safe/v1.0.0/SafeContract_v1_0_0'
-import SafeContract_v1_1_1 from '@safe-global/protocol-kit/contracts/Safe/v1.1.1/SafeContract_v1_1_1'
-import SafeContract_v1_2_0 from '@safe-global/protocol-kit/contracts/Safe/v1.2.0/SafeContract_v1_2_0'
-import SafeContract_v1_3_0 from '@safe-global/protocol-kit/contracts/Safe/v1.3.0/SafeContract_v1_3_0'
-import SafeContract_v1_4_1 from '@safe-global/protocol-kit/contracts/Safe/v1.4.1/SafeContract_v1_4_1'
+import { SafeContractImplementationType } from '@wardenprotocol/protocol-kit/types'
+import SafeContract_v1_0_0 from '@wardenprotocol/protocol-kit/contracts/Safe/v1.0.0/SafeContract_v1_0_0'
+import SafeContract_v1_1_1 from '@wardenprotocol/protocol-kit/contracts/Safe/v1.1.1/SafeContract_v1_1_1'
+import SafeContract_v1_2_0 from '@wardenprotocol/protocol-kit/contracts/Safe/v1.2.0/SafeContract_v1_2_0'
+import SafeContract_v1_3_0 from '@wardenprotocol/protocol-kit/contracts/Safe/v1.3.0/SafeContract_v1_3_0'
+import SafeContract_v1_4_1 from '@wardenprotocol/protocol-kit/contracts/Safe/v1.4.1/SafeContract_v1_4_1'
 
 export enum SAFE_FEATURES {
   SAFE_TX_GAS_OPTIONAL = 'SAFE_TX_GAS_OPTIONAL',

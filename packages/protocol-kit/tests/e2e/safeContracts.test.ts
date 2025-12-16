@@ -24,12 +24,12 @@ import {
   getSafeProxyFactoryContract,
   getSignMessageLibContract,
   SafeProvider
-} from '@safe-global/protocol-kit/index'
+} from '@wardenprotocol/protocol-kit/index'
 import {
   getSafeWebAuthnSharedSignerContract,
   getSafeWebAuthnSignerFactoryContract,
   getSimulateTxAccessorContract
-} from '@safe-global/protocol-kit/contracts/safeDeploymentContracts'
+} from '@wardenprotocol/protocol-kit/contracts/safeDeploymentContracts'
 
 chai.use(chaiAsPromised)
 

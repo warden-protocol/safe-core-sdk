@@ -1,6 +1,6 @@
 import { Buffer } from 'buffer'
 import { getFCLP256VerifierDeployment } from '@safe-global/safe-modules-deployments'
-import { PasskeyArgType, PasskeyCoordinates } from '@safe-global/protocol-kit/types'
+import { PasskeyArgType, PasskeyCoordinates } from '@wardenprotocol/protocol-kit/types'
 
 /**
  * Converts a Base64 URL-encoded string to a Uint8Array.

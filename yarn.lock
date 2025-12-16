@@ -1719,6 +1719,21 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.1.1.tgz#1ec17e2edbec25c8306d424ecfbf13c7de1aaa31"
   integrity sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==
 
+"@safe-global/protocol-kit@^5.2.22":
+  version "5.2.22"
+  resolved "https://registry.yarnpkg.com/@safe-global/protocol-kit/-/protocol-kit-5.2.22.tgz#439ebba9c17a4dc432e9ec22b39bf4984006e85d"
+  integrity sha512-1oGYFDw8UUQqYGrGZw0Yy30v8jlMzvMidMd35HRM3hK/sAAbisUmHqER+KUV1Vvb2KX4c+dnkaw4ctjuMhajbA==
+  dependencies:
+    "@safe-global/safe-deployments" "^1.37.49"
+    "@safe-global/safe-modules-deployments" "^2.2.21"
+    "@safe-global/types-kit" "^1.0.5"
+    abitype "^1.0.2"
+    semver "^7.6.3"
+    viem "^2.21.8"
+  optionalDependencies:
+    "@noble/curves" "^1.6.0"
+    "@peculiar/asn1-schema" "^2.3.13"
+
 "@safe-global/safe-contracts-v1.4.1@npm:@safe-global/safe-contracts@1.4.1":
   version "1.4.1"
   resolved "https://registry.npmjs.org/@safe-global/safe-contracts/-/safe-contracts-1.4.1.tgz"
@@ -2324,6 +2339,13 @@
     "@uniswap/v2-core" "^1.0.1"
     "@uniswap/v3-core" "^1.0.0"
     base64-sol "1.0.1"
+
+"@wardenprotocol/safe-deployments@^1.37.50":
+  version "1.37.50"
+  resolved "https://registry.yarnpkg.com/@wardenprotocol/safe-deployments/-/safe-deployments-1.37.50.tgz#76832ed0d86e71bb8ec58f0f74543e4918a443af"
+  integrity sha512-n07wJppX1AXmQ853SYzeNVbNaQ2/pVD+KpXgGBVFbTf3uH4D1wtDSmvjihrQ5FxqL06DZ0BeKwFGz9XpLfHCzw==
+  dependencies:
+    semver "^7.6.2"
 
 "@yarnpkg/lockfile@^1.1.0":
   version "1.1.0"

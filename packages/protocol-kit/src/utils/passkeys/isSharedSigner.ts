@@ -1,9 +1,9 @@
 import {
   PasskeyArgType,
   SafeWebAuthnSharedSignerContractImplementationType
-} from '@safe-global/protocol-kit/types'
+} from '@wardenprotocol/protocol-kit/types'
 import { getDefaultFCLP256VerifierAddress } from './extractPasskeyData'
-import { asHex } from '@safe-global/protocol-kit/utils/types'
+import { asHex } from '@wardenprotocol/protocol-kit/utils/types'
 
 /**
  * Returns true if the passkey signer is a shared signer

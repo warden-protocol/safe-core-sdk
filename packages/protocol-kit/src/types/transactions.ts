@@ -1,5 +1,5 @@
 import { MetaTransactionData, SafeTransactionDataPartial } from '@safe-global/types-kit'
-import { SafeTransactionOptionalProps } from '@safe-global/protocol-kit/utils/transactions'
+import { SafeTransactionOptionalProps } from '@wardenprotocol/protocol-kit/utils/transactions'
 
 import { SafeProviderConfig } from './safeProvider'
 import { SafeContractImplementationType } from './contracts'

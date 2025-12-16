@@ -1,6 +1,6 @@
-import SimulateTxAccessorBaseContract from '@safe-global/protocol-kit/contracts/SimulateTxAccessor/SimulateTxAccessorBaseContract'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import SimulateTxAccessorBaseContract from '@wardenprotocol/protocol-kit/contracts/SimulateTxAccessor/SimulateTxAccessorBaseContract'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 import {
   simulateTxAccessor_1_3_0_ContractArtifacts,
   SimulateTxAccessorContract_v1_3_0_Abi,
@@ -8,7 +8,7 @@ import {
   SimulateTxAccessorContract_v1_3_0_Function
 } from '@safe-global/types-kit'
 
-import { asHex } from '@safe-global/protocol-kit/utils/types'
+import { asHex } from '@wardenprotocol/protocol-kit/utils/types'
 
 /**
  * SimulateTxAccessorContract_v1_3_0  is the implementation specific to the SimulateTxAccessor contract version 1.3.0.

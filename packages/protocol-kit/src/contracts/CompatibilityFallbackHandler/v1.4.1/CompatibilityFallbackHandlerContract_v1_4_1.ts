@@ -1,6 +1,6 @@
-import CompatibilityFallbackHandlerBaseContract from '@safe-global/protocol-kit/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerBaseContract'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import CompatibilityFallbackHandlerBaseContract from '@wardenprotocol/protocol-kit/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerBaseContract'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 import {
   compatibilityFallbackHandler_1_4_1_ContractArtifacts,
   CompatibilityFallbackHandlerContract_v1_4_1_Abi,

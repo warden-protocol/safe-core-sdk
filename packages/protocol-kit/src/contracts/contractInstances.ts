@@ -1,5 +1,5 @@
 import { Abi } from 'viem'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 import {
   SafeVersion,
   SafeContract_v1_3_0_Abi,

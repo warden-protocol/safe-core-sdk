@@ -1,9 +1,9 @@
 import { simulateContract } from 'viem/actions'
-import SafeBaseContract from '@safe-global/protocol-kit/contracts/Safe/SafeBaseContract'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
-import { toTxResult } from '@safe-global/protocol-kit/contracts/utils'
-import { sameString } from '@safe-global/protocol-kit/utils'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import SafeBaseContract from '@wardenprotocol/protocol-kit/contracts/Safe/SafeBaseContract'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
+import { toTxResult } from '@wardenprotocol/protocol-kit/contracts/utils'
+import { sameString } from '@wardenprotocol/protocol-kit/utils'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 import {
   SafeContract_v1_1_1_Abi,
   SafeContract_v1_1_1_Contract,
@@ -13,7 +13,7 @@ import {
   TransactionOptions,
   TransactionResult
 } from '@safe-global/types-kit'
-import { asHash, asHex } from '@safe-global/protocol-kit/utils/types'
+import { asHash, asHex } from '@wardenprotocol/protocol-kit/utils/types'
 import { ContractFunctionArgs } from 'viem'
 
 /**

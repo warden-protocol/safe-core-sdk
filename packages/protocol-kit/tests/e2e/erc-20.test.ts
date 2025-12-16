@@ -3,13 +3,13 @@ import Safe, {
   createERC20TokenTransferTransaction,
   getERC20Decimals,
   isGasTokenCompatibleWithHandlePayment
-} from '@safe-global/protocol-kit/index'
+} from '@wardenprotocol/protocol-kit/index'
 import { safeVersionDeployed, setupTests, itif } from '@safe-global/testing-kit'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import sinon from 'sinon'
 import { getEip1193Provider } from './utils/setupProvider'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/utils/constants'
+import { ZERO_ADDRESS } from '@wardenprotocol/protocol-kit/utils/constants'
 
 chai.use(chaiAsPromised)
 

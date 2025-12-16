@@ -1,4 +1,4 @@
-import Safe, { buildContractSignature, hashSafeMessage } from '@safe-global/protocol-kit/index'
+import Safe, { buildContractSignature, hashSafeMessage } from '@wardenprotocol/protocol-kit/index'
 import {
   safeVersionDeployed,
   setupTests as testingKitSetupTests,
@@ -6,7 +6,7 @@ import {
   itif
 } from '@safe-global/testing-kit'
 import { SafeTransactionDataPartial } from '@safe-global/types-kit'
-import { SigningMethod } from '@safe-global/protocol-kit/types'
+import { SigningMethod } from '@wardenprotocol/protocol-kit/types'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import { getEip1193Provider } from './utils/setupProvider'

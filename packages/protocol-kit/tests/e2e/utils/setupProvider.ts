@@ -3,8 +3,8 @@ import Web3 from 'web3'
 import { ethers } from 'ethers'
 import { custom, createWalletClient, Account } from 'viem'
 
-import { SafeProvider } from '@safe-global/protocol-kit/index'
-import { Eip1193Provider } from '@safe-global/protocol-kit/types'
+import { SafeProvider } from '@wardenprotocol/protocol-kit/index'
+import { Eip1193Provider } from '@wardenprotocol/protocol-kit/types'
 
 type Network = 'mainnet' | 'gnosis' | 'zksync' | 'goerli' | 'sepolia'
 

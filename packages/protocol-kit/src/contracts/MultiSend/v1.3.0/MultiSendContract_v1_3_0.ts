@@ -1,6 +1,6 @@
-import MultiSendBaseContract from '@safe-global/protocol-kit/contracts/MultiSend/MultiSendBaseContract'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import MultiSendBaseContract from '@wardenprotocol/protocol-kit/contracts/MultiSend/MultiSendBaseContract'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 import {
   multisend_1_3_0_ContractArtifacts,
   MultiSendContract_v1_3_0_Abi,

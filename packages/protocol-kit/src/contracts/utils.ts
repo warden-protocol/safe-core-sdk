@@ -15,10 +15,10 @@ import {
   decodeEventLog
 } from 'viem'
 import { waitForTransactionReceipt } from 'viem/actions'
-import { DEFAULT_SAFE_VERSION } from '@safe-global/protocol-kit/contracts/config'
-import { EMPTY_DATA, ZERO_ADDRESS } from '@safe-global/protocol-kit/utils/constants'
-import { createMemoizedFunction } from '@safe-global/protocol-kit/utils/memoized'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import { DEFAULT_SAFE_VERSION } from '@wardenprotocol/protocol-kit/contracts/config'
+import { EMPTY_DATA, ZERO_ADDRESS } from '@wardenprotocol/protocol-kit/utils/constants'
+import { createMemoizedFunction } from '@wardenprotocol/protocol-kit/utils/memoized'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 import {
   SafeProxyFactoryContractType,
   SafeVersion,
@@ -41,7 +41,7 @@ import {
   SafeContractImplementationType,
   SafeDeploymentConfig
 } from '../types'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
 
 // keccak256(toUtf8Bytes('Safe Account Abstraction'))
 export const PREDETERMINED_SALT_NONCE =

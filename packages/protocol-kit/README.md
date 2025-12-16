@@ -24,8 +24,8 @@ Head to the [Protocol Kit docs](https://docs.safe.global/sdk/protocol-kit) to le
 Install the package with yarn or npm:
 
 ```bash
-yarn add @safe-global/protocol-kit
-npm install @safe-global/protocol-kit
+yarn add @wardenprotocol/protocol-kit
+npm install @wardenprotocol/protocol-kit
 ```
 
 ## Quick Start
@@ -36,7 +36,7 @@ npm install @safe-global/protocol-kit
 Loading an already deployed Safe, using the `safeAddress` property:
 
 ```js
-import Safe from '@safe-global/protocol-kit'
+import Safe from '@wardenprotocol/protocol-kit'
 
 const protocolKit = await Safe.init({
   provider,
@@ -48,7 +48,7 @@ const protocolKit = await Safe.init({
 Initialization of an undeployed Safe using the `predictedSafe` property. Because Safes are deployed in a deterministic way, passing a `predictedSafe` will allow to initialize the SDK with the Safe configuration and use it to some extent before it's deployed:
 
 ```js
-import Safe, { PredictedSafeProps } from '@safe-global/protocol-kit'
+import Safe, { PredictedSafeProps } from '@wardenprotocol/protocol-kit'
 
 const predictedSafe: PredictedSafeProps = {
   safeAccountConfig,

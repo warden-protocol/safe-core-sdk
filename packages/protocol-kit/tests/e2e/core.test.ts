@@ -1,4 +1,4 @@
-import { DEFAULT_SAFE_VERSION } from '@safe-global/protocol-kit/contracts/config'
+import { DEFAULT_SAFE_VERSION } from '@wardenprotocol/protocol-kit/contracts/config'
 import {
   safeVersionDeployed,
   setupTests,
@@ -6,13 +6,13 @@ import {
   getSafeWithOwners,
   waitTransactionReceipt
 } from '@safe-global/testing-kit'
-import Safe, { PredictedSafeProps } from '@safe-global/protocol-kit/index'
+import Safe, { PredictedSafeProps } from '@wardenprotocol/protocol-kit/index'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import { getEip1193Provider } from './utils/setupProvider'
 
 import { waitSafeTxReceipt } from './utils/transactions'
-import { sameString } from '@safe-global/protocol-kit/utils'
+import { sameString } from '@wardenprotocol/protocol-kit/utils'
 
 chai.use(chaiAsPromised)
 

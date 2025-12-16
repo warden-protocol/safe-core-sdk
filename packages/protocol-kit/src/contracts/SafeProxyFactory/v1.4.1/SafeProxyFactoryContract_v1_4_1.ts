@@ -1,12 +1,12 @@
-import SafeProxyFactoryBaseContract from '@safe-global/protocol-kit/contracts/SafeProxyFactory/SafeProxyFactoryBaseContract'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import SafeProxyFactoryBaseContract from '@wardenprotocol/protocol-kit/contracts/SafeProxyFactory/SafeProxyFactoryBaseContract'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 import {
   SafeProxyFactoryContract_v1_4_1_Abi,
   SafeProxyFactoryContract_v1_4_1_Contract,
   SafeProxyFactoryContract_v1_4_1_Function,
   safeProxyFactory_1_4_1_ContractArtifacts
 } from '@safe-global/types-kit'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
 
 /**
  * SafeProxyFactoryContract_v1_4_1  is the implementation specific to the Safe Proxy Factory contract version 1.4.1.

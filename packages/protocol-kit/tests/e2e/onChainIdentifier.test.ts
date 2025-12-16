@@ -4,14 +4,14 @@ import Safe, {
   OnchainAnalyticsProps,
   PredictedSafeProps,
   SafeAccountConfig
-} from '@safe-global/protocol-kit/index'
+} from '@wardenprotocol/protocol-kit/index'
 import chai from 'chai'
 import sinon from 'sinon'
 import chaiAsPromised from 'chai-as-promised'
 
-import { generateHash } from '@safe-global/protocol-kit/utils/on-chain-tracking/generateOnChainIdentifier'
-import * as getProtocolKitVersionModule from '@safe-global/protocol-kit/utils/getProtocolKitVersion'
-import { getProtocolKitVersion } from '@safe-global/protocol-kit/utils/getProtocolKitVersion'
+import { generateHash } from '@wardenprotocol/protocol-kit/utils/on-chain-tracking/generateOnChainIdentifier'
+import * as getProtocolKitVersionModule from '@wardenprotocol/protocol-kit/utils/getProtocolKitVersion'
+import { getProtocolKitVersion } from '@wardenprotocol/protocol-kit/utils/getProtocolKitVersion'
 import { getEip1193Provider } from './utils/setupProvider'
 import { waitSafeTxReceipt } from './utils/transactions'
 

@@ -1,5 +1,5 @@
-import { isRestrictedAddress, sameString } from '@safe-global/protocol-kit/utils'
-import { SENTINEL_ADDRESS } from '@safe-global/protocol-kit/utils/constants'
+import { isRestrictedAddress, sameString } from '@wardenprotocol/protocol-kit/utils'
+import { SENTINEL_ADDRESS } from '@wardenprotocol/protocol-kit/utils/constants'
 import { SafeContractImplementationType } from '../types'
 import SafeProvider from '../SafeProvider'
 

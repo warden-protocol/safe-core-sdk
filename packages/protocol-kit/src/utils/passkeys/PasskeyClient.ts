@@ -24,7 +24,7 @@ import {
   SafeWebAuthnSignerFactoryContractImplementationType,
   SafeWebAuthnSharedSignerContractImplementationType,
   GetPasskeyCredentialFn
-} from '@safe-global/protocol-kit/types'
+} from '@wardenprotocol/protocol-kit/types'
 import { getDefaultFCLP256VerifierAddress } from './extractPasskeyData'
 import { asHex } from '../types'
 import isSharedSigner from './isSharedSigner'

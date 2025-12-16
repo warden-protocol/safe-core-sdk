@@ -1,10 +1,10 @@
 import { Abi } from 'abitype'
 
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 import { SafeVersion } from '@safe-global/types-kit'
-import BaseContract from '@safe-global/protocol-kit/contracts/BaseContract'
-import { contractName } from '@safe-global/protocol-kit/contracts/config'
+import BaseContract from '@wardenprotocol/protocol-kit/contracts/BaseContract'
+import { contractName } from '@wardenprotocol/protocol-kit/contracts/config'
 
 /**
  * Abstract class MultiSendBaseContract extends BaseContract to specifically integrate with the MultiSend contract.

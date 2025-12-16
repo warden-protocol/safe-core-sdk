@@ -9,11 +9,11 @@ import {
   Chain
 } from 'viem'
 import { estimateContractGas, getTransactionReceipt } from 'viem/actions'
-import { SingletonDeploymentV2 } from '@safe-global/safe-deployments'
+import { SingletonDeploymentV2 } from '@wardenprotocol/safe-deployments'
 import { Deployment } from '@safe-global/safe-modules-deployments'
-import { contractName, getContractDeployment } from '@safe-global/protocol-kit/contracts/config'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
+import { contractName, getContractDeployment } from '@wardenprotocol/protocol-kit/contracts/config'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
 import {
   EncodeFunction,
   EstimateGasFunction,
@@ -26,7 +26,7 @@ import {
   WalletTransactionOptions,
   WalletLegacyTransactionOptions,
   convertTransactionOptions
-} from '@safe-global/protocol-kit/utils'
+} from '@wardenprotocol/protocol-kit/utils'
 import { ExternalClient } from '../types'
 
 /**

@@ -1,4 +1,4 @@
-import SafeWebAuthnSharedSignerBaseContract from '@safe-global/protocol-kit/contracts/SafeWebAuthnSharedSigner/SafeWebAuthnSharedSignerBaseContract'
+import SafeWebAuthnSharedSignerBaseContract from '@wardenprotocol/protocol-kit/contracts/SafeWebAuthnSharedSigner/SafeWebAuthnSharedSignerBaseContract'
 import {
   SafeVersion,
   SafeWebAuthnSharedSignerContract_v0_2_1_Abi,
@@ -6,8 +6,8 @@ import {
   SafeWebAuthnSharedSignerContract_v0_2_1_Function,
   SafeWebAuthnSharedSigner_0_2_1_ContractArtifacts
 } from '@safe-global/types-kit'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 
 /**
  * SafeWebAuthnSharedSignerContract_v0_2_1 is the implementation specific to the SafeWebAuthnSharedSigner contract version 0.2.1.

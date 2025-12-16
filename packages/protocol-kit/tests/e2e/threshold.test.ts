@@ -1,5 +1,5 @@
 import { setupTests, getSafeWithOwners } from '@safe-global/testing-kit'
-import Safe, { SafeTransactionOptionalProps } from '@safe-global/protocol-kit/index'
+import Safe, { SafeTransactionOptionalProps } from '@wardenprotocol/protocol-kit/index'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import { getEip1193Provider } from './utils/setupProvider'

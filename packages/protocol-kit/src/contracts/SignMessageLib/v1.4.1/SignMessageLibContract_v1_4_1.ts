@@ -1,7 +1,7 @@
-import { toTxResult } from '@safe-global/protocol-kit/contracts/utils'
-import SignMessageLibBaseContract from '@safe-global/protocol-kit/contracts/SignMessageLib/SignMessageLibBaseContract'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
+import { toTxResult } from '@wardenprotocol/protocol-kit/contracts/utils'
+import SignMessageLibBaseContract from '@wardenprotocol/protocol-kit/contracts/SignMessageLib/SignMessageLibBaseContract'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
 import {
   SafeContractFunction,
   SignMessageLibContract_v1_4_1_Abi,

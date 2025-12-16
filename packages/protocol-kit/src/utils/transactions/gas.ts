@@ -1,12 +1,12 @@
 import { BaseError, CallExecutionErrorType, RawContractErrorType } from 'viem'
 import { OperationType, SafeVersion, SafeTransaction } from '@safe-global/types-kit'
 import semverSatisfies from 'semver/functions/satisfies'
-import Safe from '@safe-global/protocol-kit/Safe'
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
+import Safe from '@wardenprotocol/protocol-kit/Safe'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
 import {
   ContractNetworksConfig,
   SafeContractImplementationType
-} from '@safe-global/protocol-kit/types'
+} from '@wardenprotocol/protocol-kit/types'
 import { ZERO_ADDRESS } from '../constants'
 import {
   getSafeContract,

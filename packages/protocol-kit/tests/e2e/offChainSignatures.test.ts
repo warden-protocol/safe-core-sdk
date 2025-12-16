@@ -1,5 +1,5 @@
 import { safeVersionDeployed, setupTests, itif } from '@safe-global/testing-kit'
-import Safe, { SigningMethod } from '@safe-global/protocol-kit/index'
+import Safe, { SigningMethod } from '@wardenprotocol/protocol-kit/index'
 import { SafeMultisigTransactionResponse } from '@safe-global/types-kit'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'

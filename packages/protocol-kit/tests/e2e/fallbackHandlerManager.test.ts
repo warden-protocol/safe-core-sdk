@@ -6,8 +6,8 @@ import {
   getSafeWithOwners,
   itif
 } from '@safe-global/testing-kit'
-import Safe, { SafeTransactionOptionalProps } from '@safe-global/protocol-kit/index'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/utils/constants'
+import Safe, { SafeTransactionOptionalProps } from '@wardenprotocol/protocol-kit/index'
+import { ZERO_ADDRESS } from '@wardenprotocol/protocol-kit/utils/constants'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import { getEip1193Provider } from './utils/setupProvider'

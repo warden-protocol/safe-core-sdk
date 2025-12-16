@@ -1,5 +1,5 @@
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
-import { DEFAULT_SAFE_VERSION } from '@safe-global/protocol-kit/contracts/config'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
+import { DEFAULT_SAFE_VERSION } from '@wardenprotocol/protocol-kit/contracts/config'
 import {
   AddOwnerTxParams,
   AddPasskeyOwnerTxParams,
@@ -10,9 +10,9 @@ import {
   StandardizeSafeTransactionDataProps,
   SwapOwnerTxParams,
   ExternalClient
-} from '@safe-global/protocol-kit/types'
-import { hasSafeFeature, SAFE_FEATURES } from '@safe-global/protocol-kit/utils'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/utils/constants'
+} from '@wardenprotocol/protocol-kit/types'
+import { hasSafeFeature, SAFE_FEATURES } from '@wardenprotocol/protocol-kit/utils'
+import { ZERO_ADDRESS } from '@wardenprotocol/protocol-kit/utils/constants'
 import { asHex } from '../types'
 import {
   MetaTransactionData,

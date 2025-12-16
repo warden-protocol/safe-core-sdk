@@ -11,7 +11,7 @@ import {
   getSafeSingletonDeployments,
   getSignMessageLibDeployments,
   getSimulateTxAccessorDeployments
-} from '@safe-global/safe-deployments'
+} from '@wardenprotocol/safe-deployments'
 import {
   Deployment,
   getSafeWebAuthnSignerFactoryDeployment,

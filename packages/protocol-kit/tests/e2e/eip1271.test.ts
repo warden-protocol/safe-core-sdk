@@ -1,4 +1,4 @@
-import { hashTypedData } from '@safe-global/protocol-kit/utils/eip-712/encode'
+import { hashTypedData } from '@wardenprotocol/protocol-kit/utils/eip-712/encode'
 import Safe, {
   hashSafeMessage,
   buildSignatureBytes,
@@ -6,22 +6,22 @@ import Safe, {
   buildContractSignature,
   EthSafeSignature,
   getSignMessageLibContract
-} from '@safe-global/protocol-kit/index'
+} from '@wardenprotocol/protocol-kit/index'
 import {
   safeVersionDeployed,
   setupTests as testingKitSetupTests,
   getSafeWithOwners,
   itif
 } from '@safe-global/testing-kit'
-import SafeMessage from '@safe-global/protocol-kit/utils/messages/SafeMessage'
+import SafeMessage from '@wardenprotocol/protocol-kit/utils/messages/SafeMessage'
 import { OperationType, SafeTransactionDataPartial } from '@safe-global/types-kit'
-import { SigningMethod } from '@safe-global/protocol-kit/types'
+import { SigningMethod } from '@wardenprotocol/protocol-kit/types'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import { getEip1193Provider } from './utils/setupProvider'
 import { waitSafeTxReceipt } from './utils/transactions'
 import semverSatisfies from 'semver/functions/satisfies'
-import { asHash } from '@safe-global/protocol-kit/utils/types'
+import { asHash } from '@wardenprotocol/protocol-kit/utils/types'
 
 chai.use(chaiAsPromised)
 

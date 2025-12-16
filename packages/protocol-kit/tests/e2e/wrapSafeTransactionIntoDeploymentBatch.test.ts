@@ -7,7 +7,7 @@ import {
   getSafeWithOwners,
   getMultiSendCallOnly
 } from '@safe-global/testing-kit'
-import Safe from '@safe-global/protocol-kit/index'
+import Safe from '@wardenprotocol/protocol-kit/index'
 import { getEip1193Provider } from './utils/setupProvider'
 
 chai.use(chaiAsPromised)

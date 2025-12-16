@@ -7,12 +7,12 @@ import {
   toEstimateGasParameters,
   toTransactionRequest,
   sameString
-} from '@safe-global/protocol-kit/utils'
-import { isTypedDataSigner } from '@safe-global/protocol-kit/contracts/utils'
+} from '@wardenprotocol/protocol-kit/utils'
+import { isTypedDataSigner } from '@wardenprotocol/protocol-kit/contracts/utils'
 import {
   getSafeWebAuthnSignerFactoryContract,
   getSafeWebAuthnSharedSignerContract
-} from '@safe-global/protocol-kit/contracts/safeDeploymentContracts'
+} from '@wardenprotocol/protocol-kit/contracts/safeDeploymentContracts'
 import {
   EIP712TypedDataMessage,
   EIP712TypedDataTx,
@@ -31,7 +31,7 @@ import {
   SafeSigner,
   PasskeyArgType,
   PasskeyClient
-} from '@safe-global/protocol-kit/types'
+} from '@wardenprotocol/protocol-kit/types'
 import { DEFAULT_SAFE_VERSION } from './contracts/config'
 import { asHash, asHex, getChainById } from './utils/types'
 import { asBlockId } from './utils/block'

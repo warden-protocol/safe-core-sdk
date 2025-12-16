@@ -1,11 +1,11 @@
 import { Abi } from 'abitype'
 
-import SafeProvider from '@safe-global/protocol-kit/SafeProvider'
+import SafeProvider from '@wardenprotocol/protocol-kit/SafeProvider'
 import { SafeVersion } from '@safe-global/types-kit'
-import BaseContract from '@safe-global/protocol-kit/contracts/BaseContract'
-import { contractName, safeDeploymentsL1ChainIds } from '@safe-global/protocol-kit/contracts/config'
-import { DeploymentType } from '@safe-global/protocol-kit/types'
-import { SAFE_FEATURES, hasSafeFeature } from '@safe-global/protocol-kit/utils'
+import BaseContract from '@wardenprotocol/protocol-kit/contracts/BaseContract'
+import { contractName, safeDeploymentsL1ChainIds } from '@wardenprotocol/protocol-kit/contracts/config'
+import { DeploymentType } from '@wardenprotocol/protocol-kit/types'
+import { SAFE_FEATURES, hasSafeFeature } from '@wardenprotocol/protocol-kit/utils'
 
 /**
  * Abstract class SafeBaseContract extends BaseContract to specifically integrate with the Safe contract.

@@ -13,7 +13,7 @@ import Safe, {
   SafeProvider,
   encodeSetupCallData,
   getSafeContract
-} from '@safe-global/protocol-kit/index'
+} from '@wardenprotocol/protocol-kit/index'
 import { getEip1193Provider } from './utils/setupProvider'
 
 chai.use(chaiAsPromised)

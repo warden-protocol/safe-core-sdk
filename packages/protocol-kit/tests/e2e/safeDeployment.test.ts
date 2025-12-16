@@ -1,4 +1,4 @@
-import { DEFAULT_SAFE_VERSION } from '@safe-global/protocol-kit/contracts/config'
+import { DEFAULT_SAFE_VERSION } from '@wardenprotocol/protocol-kit/contracts/config'
 import {
   getCompatibilityFallbackHandler,
   getDefaultCallbackHandler,
@@ -12,8 +12,8 @@ import Safe, {
   getSafeAddressFromDeploymentTx,
   PredictedSafeProps,
   SafeAccountConfig
-} from '@safe-global/protocol-kit/index'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/utils/constants'
+} from '@wardenprotocol/protocol-kit/index'
+import { ZERO_ADDRESS } from '@wardenprotocol/protocol-kit/utils/constants'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import { getEip1193Provider } from './utils/setupProvider'

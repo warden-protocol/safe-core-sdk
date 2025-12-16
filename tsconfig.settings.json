@@ -21,13 +21,31 @@
     "resolveJsonModule": true,
     "baseUrl": "./",
     "paths": {
-      "@safe-global/api-kit/*": ["./packages/api-kit/src/*"],
-      "@safe-global/protocol-kit/*": ["./packages/protocol-kit/src/*"],
-      "@safe-global/protocol-kit/hardhat/*": ["./packages/protocol-kit/hardhat/*"],
-      "@safe-global/relay-kit/*": ["./packages/relay-kit/src/*"],
-      "@safe-global/types-kit/*": ["./packages/types-kit/src/*"],
-      "@safe-global/sdk-starter-kit/*": ["./packages/sdk-starter-kit/src/*"]
+      "@safe-global/api-kit/*": [
+        "./packages/api-kit/src/*"
+      ],
+      "@safe-global/protocol-kit/*": [
+        "./packages/protocol-kit/src/*"
+      ],
+      "@safe-global/protocol-kit/hardhat/*": [
+        "./packages/protocol-kit/hardhat/*"
+      ],
+      "@safe-global/relay-kit/*": [
+        "./packages/relay-kit/src/*"
+      ],
+      "@safe-global/types-kit/*": [
+        "./packages/types-kit/src/*"
+      ],
+      "@safe-global/sdk-starter-kit/*": [
+        "./packages/sdk-starter-kit/src/*"
+      ],
+      "@wardenprotocol/protocol-kit/*": [
+        "./packages/protocol-kit/src/*"
+      ]
     }
   },
-  "exclude": ["**/dist", "**/node_modules"]
+  "exclude": [
+    "**/dist",
+    "**/node_modules"
+  ]
 }

@@ -11,7 +11,7 @@ import {
   Hex
 } from 'viem'
 import { SafeVersion } from '@safe-global/types-kit'
-import { ContractNetworksConfig } from '@safe-global/protocol-kit/types'
+import { ContractNetworksConfig } from '@wardenprotocol/protocol-kit/types'
 
 export type RequestArguments = {
   readonly method: string
